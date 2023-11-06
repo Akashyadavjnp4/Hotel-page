@@ -1,0 +1,512 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Slab&display=swap');
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Reggae+One&family=Roboto+Slab&display=swap');
+
+
+body{
+     font-family: "Poppins", sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(5, 5, 13);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    background-color: black;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style-type: none;
+    margin: 0 20px;
+}
+nav ul li a{
+    color:white;
+}
+nav ul li a:hover{
+    color:aquamarine;
+}
+.left {
+    font-size: 1.3rem;
+}
+.right{
+    width: auto;
+    font-size: 50px;
+    font-family: 'Reggae One', cursive;
+}
+.img1{
+    margin-right: 100px;
+}
+.img1 img{
+    width: 1253px;
+    height: 850px;
+}
+.welcm{
+    font-size: 50px;
+    margin-left: 400px;
+}
+.weltext{
+    margin-left: 200px;
+    margin-right:200px;
+    text-align: justify;
+    margin-top: 20px;
+}
+.discover{
+    font-size: 50px;
+    margin-left:400px;
+    margin-top: 40px;
+}
+.vip{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.vip  img{
+    width:520px;
+    height:420px;
+}
+.box1{
+    margin-top:-425px;
+    margin-left: 621px;
+    background-color: lightgrey;
+    width: 422px;
+    height:320px;
+   padding: 50px;
+}
+.viproom{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+.viptext{
+    font-size: 15px;
+    color:black;
+    margin-top: 10px;  
+}
+.hr1{
+    height: 4px;
+    color:black;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+.box1a{
+    background-color: lightgrey;
+  width: 40px;
+  height:10px;
+  border: 5px solid black;
+  padding: 50px;
+  margin: 20px;
+  color:black;
+}
+.box1b{
+    
+   margin-top: -90px;
+    margin-left: 250px;
+}
+.box1b button{
+    background-color: black;
+    color: lightgray;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.rate1{
+    margin-top: -40px;
+}
+.love{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.love  img{
+    width:520px;
+    height:420px;
+}
+.box2{
+    margin-top:-425px;
+    margin-left: 621px;
+    background-color: lightgrey;
+    width: 422px;
+    height:320px;
+   padding: 50px;
+}
+.loveroom{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+.lovetext{
+    font-size: 15px;
+    color:black;
+    margin-top: 10px; 
+}
+.hr2{
+    height: 4px;
+    color:black;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+.box2a{
+    background-color: lightgrey;
+  width: 40px;
+  height:10px;
+  border: 5px solid black;
+  padding: 50px;
+  margin: 20px;
+  color:black;
+}
+.box2b{
+
+   margin-top: -90px;
+    margin-left: 250px;
+}
+.box2b button{
+    background-color: black;
+    color: lightgray;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.rate2{
+    margin-top: -40px;
+
+}
+.vintage{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.vintage  img{
+    width:520px;
+    height:420px;
+}
+.box3{
+    margin-top:-425px;
+    margin-left: 621px;
+    background-color: lightgrey;
+    width: 422px;
+    height:320px;
+   padding: 50px;
+  
+}
+.vintageroom{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+.vintagetext{
+    font-size: 15px;
+    color:black;
+    margin-top: 10px;   
+}
+.hr3{
+    height: 4px;
+    color:black;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+.box3a{
+    background-color: lightgrey;
+  width: 40px;
+  height:10px;
+  border: 5px solid black;
+  padding: 50px;
+  margin: 20px;
+  color:black;
+}
+.box3b{
+
+   margin-top: -90px;
+    margin-left: 250px;
+}
+.box3b button{
+    background-color: black;
+    color: lightgray;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.rate3{
+    margin-top: -40px;
+}
+.family{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.family  img{
+    width:520px;
+    height:420px;
+}
+.box4{
+    margin-top:-425px;
+    margin-left: 621px;
+    background-color: lightgrey;
+    width: 422px;
+    height:320px;
+   padding: 50px; 
+}
+.familyroom{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+.familytext{
+    font-size: 15px;
+    color:black;
+    margin-top: 10px;   
+}
+.hr4{
+    height: 4px;
+    color:black;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+.box4a{
+    background-color: lightgrey;
+  width: 40px;
+  height:10px;
+  border: 5px solid black;
+  padding: 50px;
+  margin: 20px;
+  color:black;
+}
+.box4b{
+
+   margin-top: -90px;
+    margin-left: 250px;
+}
+.box4b button{
+    background-color: black;
+    color: lightgray;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.rate4{
+    margin-top: -40px;
+}
+.cabana{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.cabana  img{
+    width:520px;
+    height:420px;
+}
+.box5{
+    margin-top:-425px;
+    margin-left: 621px;
+    background-color: lightgrey;
+    width: 422px;
+    height:320px;
+   padding: 50px; 
+}
+.cabanaroom{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+.cabanatext{
+    font-size: 15px;
+    color:black;
+    margin-top: 10px;   
+}
+.hr5{
+    height: 4px;
+    color:black;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+.box5a{
+    background-color: lightgrey;
+  width: 40px;
+  height:10px;
+  border: 5px solid black;
+  padding: 50px;
+  margin: 20px;
+  color:black;
+}
+.box5b{
+
+   margin-top: -90px;
+    margin-left: 250px;
+}
+.box5b button {
+    background-color: black;
+    color: lightgray;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+ 
+.rate5{
+    margin-top: -40px;
+}
+.morepage{
+    margin-top: 40px;
+    margin-left: 541px;
+    cursor: pointer;
+}
+.morepagebox1{
+    width:3px;
+    height:20px;
+    background-color: aqua;
+    font-size: 20px;
+    padding:20px;
+}
+.morepagebox2{
+    width:3px;
+    height:20px;
+    background-color: lightgray;
+    font-size: 20px;
+    padding:20px;
+    margin-left: 60px;
+    margin-top: -60px;
+}
+.morepagebox3{
+    width:3px;
+    height:20px;
+    background-color: lightgray;
+    font-size: 20px;
+    padding:20px;
+    margin-left: 120px;
+    margin-top: -60px;
+}
+.morepagebox2:hover{
+ color:aqua;
+}
+.morepagebox3:hover{
+ color:aqua
+}
+
+.footersection1{
+    background-color:lightgray;
+    height:250px;
+    margin-top: 80px;
+    margin-bottom: 0;
+    color:black;
+}
+.firstfoot1{
+    padding: 9px;
+    margin-left:40px; 
+    font-family: 'Reggae One', cursive;
+
+}
+.firstfoot1a{
+    margin-left:40px;
+    padding:15px;
+}
+.firstfoot1b{
+  margin-left: 55px;
+}
+.firstfoot1b img{
+    width:20px;
+    height:20px;
+}
+.firstfoot1c{
+    margin-left: 55px;
+    font-size: 13px;
+    margin-top: 15px;
+}
+  
+  .firstfoot1c img{
+      width:20px;
+      height:20px;
+  }
+
+  .secondfoot{
+    margin-top: 80px;
+    margin-bottom: 0; 
+  }
+  .secondfoot2a{
+    margin-top: -178px;
+    margin-left: 435px;
+    color:black;
+  }
+ .secondfoot2b{
+    color:black;
+    margin-top:5px;
+    margin-left: 435px;
+    
+ }
+ .secondfoot2b ul{
+    list-style-type: none;
+ }
+ .thirdfoot3{
+    margin-top: 80px;
+    margin-bottom: 0;
+ }
+ .thirdfoot3a{
+    color:black;
+    margin-top: -136px;
+    margin-left: 720px;
+ }
+ .thirdfoot3b{
+    color:black;
+    margin-top:5px;
+    margin-left: 720px;
+ }
+ .thirdfoot3b ul{
+    list-style-type: none;
+ }
+ .fourthfoot4{
+    margin-top: 80px;
+    margin-bottom: 0;
+ }
+ .fourthfoot4a{
+    color:black;
+    margin-top: -136px;
+    margin-left: 1007px;
+ }
+ .fourthfoot4b{
+    margin-left: 10px;
+ }
+ .insta{
+    margin-left: 1000px;
+    margin-top: 20px;
+
+}
+.insta img{
+    width:30px;
+    height:30px;
+}
+.fb{
+    margin-left: 1050px;
+    margin-top: -36px;
+}
+.fb img{
+    width:30px;
+    height:30px;
+}
+.whatsapp{
+    margin-left: 1098px;
+    margin-top: -35px;
+}
+.whatsapp img{
+    width:30px;
+    height:30px;
+}
